@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripit.js"></script>
+    <title>Planta Apartamento</title>
+</head>
+<body>
+
+    <div class="planta">
+        <div class="floors">
+            <div class="floor">
+                <div class="apartament">
+                    <h3>Meu primeiro AP</h3>
+                    <div class="aptodo">
+                        <div class="comodo" id="sala">Sala</div>
+                        <div class="comodo" id="cozinha">Cozinha</div>
+                        <div class="comodo" id="quarto1">Quarto 1</div>
+                        <div class="comodo" id="quarto2">Quarto 2</div>
+                        <div class="comodo" id="banheiro">Banheiro</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="apartment">
+            <div class="apartment">
+                <h2>Central de Comandos:</h2>
+            </div>
+
+            <div class="column">
+                <h2>Comodos</h2>
+                <h3>Sala</h3>
+                <button id="btn-sala-on" onclick="ligarLuz('sala')">Ligar luzes da Sala</button>
+                <button id="btn-sala-off" onclick="desligarLuz('sala')">Desligar luzes da Sala</button>
+            </div>
+
+            <div class="column">
+                <h3>Cozinha</h3>
+                <button id="btn-cozinha1-on" onclick="ligarLuz('cozinha')">Ligar luzes da
+                    Cozinha</button>
+                <button id="btn-cozinha1-off" onclick="desligarLuz('cozinha')">Desligar luzes da
+                    Cozinha</button>
+            </div>
+
+            <div class="column">
+                <h3>Quarto</h3>
+                <button id="btn-quarto1-on" onclick="ligarLuz('quarto1')">Ligar luzes do Quarto
+                    1</button>
+                <button id="btn-quarto1-off" onclick="desligarLuz('quarto1')">Desligar luzes do Quarto
+                    1</button>
+            </div>
+
+            <div class="column">
+                <h3>Quarto 2</h3>
+                <button id="btn-quarto21-on" onclick="ligarLuz('quarto2')">Ligar luzes do Quarto
+                    2</button>
+                <button id="btn-quarto21-off" onclick="desligarLuz('quarto2')">Desligar luzes do Quarto
+                    2</button>
+            </div>
+
+            <div class="column">
+                <h3>Banheiro</h3>
+                <button id="btn-banheiro1-on" onclick="ligarLuz('banheiro')">Ligar luzes do
+                    Banheiro</button>
+                <button id="btn-banheiro1-off" onclick="desligarLuz('banheiro')">Desligar luzes do
+                    Banheiro</button>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
